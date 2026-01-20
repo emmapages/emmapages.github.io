@@ -10,180 +10,34 @@
 </head>
 
 <body>
-    <header>
+    <header class="barre">
         <img src="images/logo.png" alt="logo Klivio" id="logo" />
-        <a href="#">Les formations</a>
+        <button class="bforma" type="button">Les formations</button>
 
-        <div class="search">
-            <input type="search" placeholder=" Rechercher"></input>
-            <img src="images/icone.png" alt="icone" />
+        <div class="recherche">
+        <input class="search" type="search" placeholder=" Rechercher" id="recherche"></input>
+        <img src="images/icone.png" alt="icone" id="iconesearch" />
         </div>
 
-        <div class="actions">
-            <button class="white-btn" type="button">Connexion</button>
+        <div class="log" id="connexion_inscription">
+            <button class="login" type="button">Connexion</button>
             <button class="singin" type="button">inscription</button>
         </div>
     </header>
 
-    <section class="hero">
-        <h1 class="title-blue-night">Klivio, l'allié de votre progression</h1>
+    <section class="banner">
+        <h1>Klivio, l'allié de votre progression</h1>
         <h2>Les meilleures formations sur le développement personnel</h2>
-        <button class="white-btn" type="button">En savoir plus</button>
+        <div class="info" id="info">
+            <button class="button" type="button">En savoir plus</button>
     </section>
+    </div>
 
     <section class="formations">
-        <h3 class="title-blue-night">Les formations populaires</h3>
-
-        <div class="all-cards">
-
-            <div class="card">
-                <div class="image-container">
-                    <img src="images/photo.png" alt="formation">
-
-                    <div class="prix-container">
-                        <span class="prix">15,99 €</span>
-                        <span class="oldprice">60 €</span>
-                    </div>
-                </div>
-
-                <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
-
-                    <form class="note1">
-                        <input type="radio" id="star5" name="note1" value="5">
-                        <label for="star5" title="5 étoiles">★</label>
-
-                        <input type="radio" id="star4" name="note1" value="4">
-                        <label for="star4" title="4 étoiles">★</label>
-
-                        <input type="radio" id="star3" name="note1" value="3">
-                        <label for="star3" title="3 étoiles">★</label>
-
-                        <input type="radio" id="star2" name="note1" value="2">
-                        <label for="star2" title="2 étoiles">★</label>
-
-                        <input type="radio" id="star1" name="note1" value="1">
-                        <label for="star1" title="1 étoile">★</label>
-                    </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-container">
-                    <img src="images/photo.png" alt="formation">
-
-                    <div class="prix-container">
-                        <span class="prix">15,99 €</span>
-                        <span class="oldprice">60 €</span>
-                    </div>
-                </div>
-
-                <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
-
-                    <form class="note1">
-                        <input type="radio" id="star5" name="note1" value="5">
-                        <label for="star5" title="5 étoiles">★</label>
-
-                        <input type="radio" id="star4" name="note1" value="4">
-                        <label for="star4" title="4 étoiles">★</label>
-
-                        <input type="radio" id="star3" name="note1" value="3">
-                        <label for="star3" title="3 étoiles">★</label>
-
-                        <input type="radio" id="star2" name="note1" value="2">
-                        <label for="star2" title="2 étoiles">★</label>
-
-                        <input type="radio" id="star1" name="note1" value="1">
-                        <label for="star1" title="1 étoile">★</label>
-                    </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-container">
-                    <img src="images/photo.png" alt="formation">
-
-                    <div class="prix-container">
-                        <span class="prix">15,99 €</span>
-                        <span class="oldprice">60 €</span>
-                    </div>
-                </div>
-
-                <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
-
-                    <form class="note1">
-                        <input type="radio" id="star5" name="note1" value="5">
-                        <label for="star5" title="5 étoiles">★</label>
-
-                        <input type="radio" id="star4" name="note1" value="4">
-                        <label for="star4" title="4 étoiles">★</label>
-
-                        <input type="radio" id="star3" name="note1" value="3">
-                        <label for="star3" title="3 étoiles">★</label>
-
-                        <input type="radio" id="star2" name="note1" value="2">
-                        <label for="star2" title="2 étoiles">★</label>
-
-                        <input type="radio" id="star1" name="note1" value="1">
-                        <label for="star1" title="1 étoile">★</label>
-                    </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-container">
-                    <img src="images/photo.png" alt="formation">
-
-                    <div class="prix-container">
-                        <span class="prix">15,99 €</span>
-                        <span class="oldprice">60 €</span>
-                    </div>
-                </div>
-
-                <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
-
-                    <form class="note1">
-                        <input type="radio" id="star5" name="note1" value="5">
-                        <label for="star5" title="5 étoiles">★</label>
-
-                        <input type="radio" id="star4" name="note1" value="4">
-                        <label for="star4" title="4 étoiles">★</label>
-
-                        <input type="radio" id="star3" name="note1" value="3">
-                        <label for="star3" title="3 étoiles">★</label>
-
-                        <input type="radio" id="star2" name="note1" value="2">
-                        <label for="star2" title="2 étoiles">★</label>
-
-                        <input type="radio" id="star1" name="note1" value="1">
-                        <label for="star1" title="1 étoile">★</label>
-                    </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
-                </div>
-            </div>
-
-
-
-
-
-
-        </div>
-
-    </section>
-
-    <section class="formations bg-blue-night">
         <h3>Les formations populaires</h3>
 
-        <div class="all-cards">
-
-            <div class="card">
+        <div class="cards">
+            <div class="card1">
                 <div class="image-container">
                     <img src="images/photo.png" alt="formation">
 
@@ -194,7 +48,7 @@
                 </div>
 
                 <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
+                    <h4 class="title">Parler en public</h4>
                     <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
 
                     <form class="note1">
@@ -216,7 +70,10 @@
                     <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
                 </div>
             </div>
-            <div class="card">
+        </div>
+
+        <div class="cards2">
+            <div class="card1">
                 <div class="image-container">
                     <img src="images/photo.png" alt="formation">
 
@@ -227,8 +84,8 @@
                 </div>
 
                 <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
+                    <h4 class="title">Gérer le stress</h4>
+                    <p class="auteur">Lucie Garnier | Formatrice</p>
 
                     <form class="note1">
                         <input type="radio" id="star5" name="note1" value="5">
@@ -246,10 +103,13 @@
                         <input type="radio" id="star1" name="note1" value="1">
                         <label for="star1" title="1 étoile">★</label>
                     </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
+                    <p class="endcard">Apprenez à rester serein face aux défis</p>
                 </div>
             </div>
-            <div class="card">
+        </div>
+
+        <div class="cards3">
+            <div class="card1">
                 <div class="image-container">
                     <img src="images/photo.png" alt="formation">
 
@@ -260,8 +120,8 @@
                 </div>
 
                 <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
+                    <h4 class="title">Travailler en équipe</h4>
+                    <p class="auteur">David Moreau | Expert</p>
 
                     <form class="note1">
                         <input type="radio" id="star5" name="note1" value="5">
@@ -279,10 +139,13 @@
                         <input type="radio" id="star1" name="note1" value="1">
                         <label for="star1" title="1 étoile">★</label>
                     </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
+                    <p class="endcard">Collaborez efficacement, même à distance</p>
                 </div>
             </div>
-            <div class="card">
+        </div>
+
+        <div class="cards4">
+            <div class="card1">
                 <div class="image-container">
                     <img src="images/photo.png" alt="formation">
 
@@ -293,8 +156,8 @@
                 </div>
 
                 <div class="card-info">
-                    <h4 class="title-blue-night">Parler en public</h4>
-                    <p class="auteur">Sonia Lefèvre | Coach prise de parole</p>
+                    <h4 class="title">Gérer son temps</h4>
+                    <p class="auteur">Claire Dumas | Coach organisation</p>
 
                     <form class="note1">
                         <input type="radio" id="star5" name="note1" value="5">
@@ -312,56 +175,193 @@
                         <input type="radio" id="star1" name="note1" value="1">
                         <label for="star1" title="1 étoile">★</label>
                     </form>
-                    <p class="endcard">Gagnez en aisance et captez votre auditoire</p>
+                    <p class="endcard">Optimisez vos journées et gagnez en efficacité</p>
                 </div>
             </div>
+        </div>
 
+    </section>
+    
+    <section class="formations2">
+        <h3 class="f2">Les formations récentes</h3>
+        <div class="cards5">
+            <div class="card2">
+                <div class="image-container2">
+                    <img src="images/photo.png" alt="formation">
 
+                    <div class="prix-container2">
+                        <span class="prix2">15,99 €</span>
+                        <span class="oldprice2">60 €</span>
+                    </div>
+                </div>
 
+                <div class="card-info2">
+                    <h4 class="titlle">Mieux communiquer</h4>
+                    <p class="auteur2">Julien Martel | Coach en comm.</p>
 
+                    <form class="note2">
+                        <input type="radio" id="star5" name="note2" value="5">
+                        <label for="star5" title="5 étoiles">★</label>
 
+                        <input type="radio" id="star4" name="note2" value="4">
+                        <label for="star4" title="4 étoiles">★</label>
 
+                        <input type="radio" id="star3" name="note2" value="3">
+                        <label for="star3" title="3 étoiles">★</label>
+
+                        <input type="radio" id="star2" name="note2" value="2">
+                        <label for="star2" title="2 étoiles">★</label>
+
+                        <input type="radio" id="star1" name="note2" value="1">
+                        <label for="star1" title="1 étoile">★</label>
+                    </form>
+                    <p class="endcard2">Améliorez vos échanges et votre impact relationnel</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards6">
+            <div class="card2">
+                <div class="image-container2">
+                    <img src="images/photo.png" alt="formation">
+
+                    <div class="prix-container2">
+                        <span class="prix2">15,99 €</span>
+                        <span class="oldprice2">60 €</span>
+                    </div>
+                </div>
+
+                <div class="card-info2">
+                    <h4 class="titlle">Maîtriser ses émotions</h4>
+                    <p class="auteur2">Amel Benali | Psy. du travail</p>
+
+                    <form class="note2">
+                        <input type="radio" id="star5" name="note2" value="5">
+                        <label for="star5" title="5 étoiles">★</label>
+
+                        <input type="radio" id="star4" name="note2" value="4">
+                        <label for="star4" title="4 étoiles">★</label>
+
+                        <input type="radio" id="star3" name="note2" value="3">
+                        <label for="star3" title="3 étoiles">★</label>
+
+                        <input type="radio" id="star2" name="note2" value="2">
+                        <label for="star2" title="2 étoiles">★</label>
+
+                        <input type="radio" id="star1" name="note2" value="1">
+                        <label for="star1" title="1 étoile">★</label>
+                    </form>
+                    <p class="endcard2">Développez calme et intelligence émotionnelle</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards7">
+            <div class="card2">
+                <div class="image-container2">
+                    <img src="images/photo.png" alt="formation">
+
+                    <div class="prix-container2">
+                        <span class="prix2">15,99 €</span>
+                        <span class="oldprice2">60 €</span>
+                    </div>
+                </div>
+
+                <div class="card-info2">
+                    <h4 class="titlle">Résoudre les problèmes</h4>
+                    <p class="auteur2">Thomas Rivière | Expert</p>
+
+                    <form class="note2">
+                        <input type="radio" id="star5" name="note2" value="5">
+                        <label for="star5" title="5 étoiles">★</label>
+
+                        <input type="radio" id="star4" name="note2" value="4">
+                        <label for="star4" title="4 étoiles">★</label>
+
+                        <input type="radio" id="star3" name="note2" value="3">
+                        <label for="star3" title="3 étoiles">★</label>
+
+                        <input type="radio" id="star2" name="note2" value="2">
+                        <label for="star2" title="2 étoiles">★</label>
+
+                        <input type="radio" id="star1" name="note2" value="1">
+                        <label for="star1" title="1 étoile">★</label>
+                    </form>
+                    <p class="endcard2">Analysez, décidez et trouvez des solutions durables</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards8">
+            <div class="card2">
+                <div class="image-container2">
+                    <img src="images/photo.png" alt="formation">
+
+                    <div class="prix-container2">
+                        <span class="prix2">15,99 €</span>
+                        <span class="oldprice2">60 €</span>
+                    </div>
+                </div>
+
+                <div class="card-info2">
+                    <h4 class="titlle">Leadership positif</h4>
+                    <p class="auteur2">Marc Nguyen | Consultant</p>
+
+                    <form class="note2">
+                        <input type="radio" id="star5" name="note2" value="5">
+                        <label for="star5" title="5 étoiles">★</label>
+
+                        <input type="radio" id="star4" name="note2" value="4">
+                        <label for="star4" title="4 étoiles">★</label>
+
+                        <input type="radio" id="star3" name="note2" value="3">
+                        <label for="star3" title="3 étoiles">★</label>
+
+                        <input type="radio" id="star2" name="note2" value="2">
+                        <label for="star2" title="2 étoiles">★</label>
+
+                        <input type="radio" id="star1" name="note2" value="1">
+                        <label for="star1" title="1 étoile">★</label>
+                    </form>
+                    <p class="endcard2">Inspirez, motivez et fédérez votre équipe</p>
+                </div>
+            </div>
         </div>
 
     </section>
 
-   <section class="avis">
-    <h1 class="title-blue-night">AVIS CLIENTS</h1>
-
-    <div class="avis-container">
-        
-        <div class="avis-card">
-            <img src="images/client 1.png" alt="Juliette">
+    <section class="avis">
+        <h1 class="title4">AVIS CLIENTS</h1>
+        <div class="client1">
+            <img src="images/client 1.png" alt="client1" id="client1">
             <h2>Juliette</h2>
-
-            <div class="stars">
-                ★★★★★
+            <div class="stars1">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
             </div>
-
-            <p>
-                J'ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
+            <p class="text1">J'ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
                 pratiques qui m'ont permis d'appliquer immédiatement les notions. L'interface est claire et la
-                progression est motivante — parfait pour se former en autonomie.
-            </p>
+                progression est motivante — parfait pour se former en autonomie.</p>
         </div>
 
-        <!-- Avis 2 -->
-        <div class="avis-card">
-            <img src="images/client2.png" alt="Camille">
+        <div class="client2">
+            <img src="images/client2.png" alt="client2" id="client2">
             <h2>Camille</h2>
-
-            <div class="stars">
-                ★★★★★
+            <div class="stars2">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
             </div>
-
-            <p>
-                Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et
-                les corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.
-            </p>
+            <p class="text2">Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et les
+                corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
         </div>
-    </div>
-</section>
 
+    </section>
 
     <section class="avantages">
         <h1 class="title1">Les avantages Klivio</h1>
