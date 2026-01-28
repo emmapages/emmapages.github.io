@@ -95,6 +95,7 @@ button {
 
 .title-blue-night {
   color: rgba(21, 34, 55, 1);
+
 }
 
 .bg-blue-night {
@@ -193,8 +194,9 @@ h3 {
   margin: 0%;
 }
 
-.card-info .auteur {
+.card-info .auteur-blue-night {
   margin: 1px 0;
+  color: #152237;
 }
 
 .note1 {
@@ -231,6 +233,10 @@ h3 {
   text-align: center;
 }
 
+.endcard-blue-night {
+  color: #152237;
+}
+
 .title-blue-night h1 {
   margin: 0%;
   font-weight: 900;
@@ -241,6 +247,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.title-white h1 {
+  color: #FFFFFF;
+
+}
 
 .avis-container {
   display: flex;
@@ -289,25 +299,18 @@ h3 {
 }
 
 .avantages {
-  position: relative;
-  width: 1680px;
-  height: 641px;
+display: flex;
+    flex-direction: column;
+    padding: 1em;
 }
 
-.title1 {
-  width: 686px;
-  height: 47px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-style: Black;
-  font-size: 40px;
-  line-height: 36px;
-  letter-spacing: -1.5%;
-  text-transform: uppercase;
+.title-blue-nightt{
+ padding: 1em;
+ color: #152237;
 }
+
 
 .liste1 {
-  height: 295px;
   font-size: 24px;
   font-weight: 400;
   font-size: 24px;
@@ -334,17 +337,17 @@ h3 {
 }
 
 #pexel {
-  height: 472px;
-  padding-left: 15em;
+      display: flex;
+    flex-direction: column;
+    padding: 0  3em;
 }
 
 
 
 .avantagesforma {
-  width: 1680;
   height: 641px;
-  top: 3032px;
-  opacity: 1;
+    display: flex;
+    flex-direction: column;
   background: rgba(68, 221, 138, 1);
 }
 
@@ -548,7 +551,8 @@ button:hover {
 .footer {
   background: #142237;
   color: white;
-  font-family: "Montserrat", sans-serif;
+ display: flex;
+    flex-direction: column;
   padding: 60px 80px 30px;
 }
 
@@ -630,9 +634,11 @@ button:hover {
 }
 
 .social {
-  display: flex;
-  align-items: center;
-  gap: 14px;
+     display: flex;
+    gap: 14px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .social a {
